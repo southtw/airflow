@@ -7,3 +7,7 @@ end});
 v2:DrawVersion({Name="Frontlines",Status=v1.Enum.StatusTypes.Online,LastUpdate="2025/12/28",LoadScript=function()
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/southtw/airflow/refs/heads/main/game/frontlines.lua"))();
 end});
+v2:DrawVersion({Name="Rivals",Status=v1.Enum.StatusTypes.Online,LastUpdate="2025/12/28",LoadScript=function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/southtw/airflow/refs/heads/main/game/rivals.lua"))();
+end});
+
