@@ -5592,7 +5592,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 			["Unknow"] = Color3.fromRGB(230, 67, 69),
 		},
 		StatusTexts = {
-			["Online"] = "Online",
+			["Online"] = "Working",
 			["Updating"] = "Updating",
 			["NotUpdate"] = "Not Update",
 			["Outdate"] = "Outdate",
