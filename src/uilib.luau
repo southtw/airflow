@@ -1,12 +1,3 @@
---[[
-    		Airflow Interface
-
-    Author: 4lpaca
-    License: MIT
-    Github: https://github.com/4lpaca-pin/Airflow
---]]
-
--- Type --
 export type GlobalConfig = {
 	Name: string,
 	Callback: (... any) -> any,
