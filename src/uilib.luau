@@ -2679,9 +2679,9 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 					Selected = Key.KeyCode;
 				else
 					if Key.UserInputType == Enum.UserInputType.MouseButton1 then
-						Selected = "MouseLeft";
+						Selected = "MouseButton1";
 					elseif Key.UserInputType == Enum.UserInputType.MouseButton2 then
-						Selected = "MouseRight";
+						Selected = "MouseButton2";
 					end;
 				end;
 			end;
